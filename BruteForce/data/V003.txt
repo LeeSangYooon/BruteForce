@@ -1,0 +1,3 @@
+def a b c d e f g
+a == 7
+&k <= k when &k >= 2

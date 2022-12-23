@@ -1,0 +1,6 @@
+def a b c
+a << {1 ~ 2}
+b << {1 ~ 4}
+c << {1 ~ 6}
+a != b and b != c and c != a
+a == 1
