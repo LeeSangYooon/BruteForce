@@ -1,6 +1,7 @@
 import re
 from copy import deepcopy
-lines = open("BruteForce/data/V004.txt", mode='r').read().split('\n')
+file_name = input()
+lines = open(file_name, mode='r').read().split('\n')
 
 variables = dict() # 변수이름: 정수 집합
 conditions = list()
